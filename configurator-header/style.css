@@ -1,6 +1,6 @@
 header {
   background-color: #e6e6e6;
-  height: 75px;
+  height: 53px;
 }
 .container {
   width: 100%;
@@ -26,6 +26,18 @@ header {
 .logo{
  height: 30px;
 }
+
+.d-lab{
+ font-size: 28px;
+ margin-top: 8px;
+ margin-left: 50px;
+ font-family: "Gotham A","Gotham B";
+}
+
+.n-help{
+ color:#63666a;
+}
+
 @media (min-width: 576px) {
  .container {
    max-width: 540px;
@@ -35,13 +47,13 @@ header {
  .container {
    max-width: 720px;
  }
+ .hide-md{
+  display: block;
+ }
 }
 @media (min-width: 992px) {
  .container {
    max-width: 960px;
- }
- .hide-md{
-  display: block;
  }
 }
 @media (min-width: 1200px) {
