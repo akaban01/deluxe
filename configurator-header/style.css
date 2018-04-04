@@ -2,62 +2,62 @@ header {
   background-color: #e6e6e6;
   height: 53px;
 }
-.container {
+.ch-container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
 }
-.fl-left{
+.ch-fl-left{
  float: left;
 }
-.fl-right{
+.ch-fl-right{
  float:right;
 }
 
-.pt-10{
+.ch-pt-10{
  margin-top: 10px;
 }
 
-.hide-md{
+.ch-hide-md{
  display: none;
 }
-.logo{
+.ch-logo{
  height: 30px;
 }
 
-.d-lab{
+.ch-d-lab{
  font-size: 28px;
  margin-top: 8px;
  margin-left: 50px;
  font-family: "Gotham A","Gotham B";
 }
 
-.n-help{
+.ch-n-help{
  color:#63666a;
 }
 
 @media (min-width: 576px) {
- .container {
+ .ch-container {
    max-width: 540px;
  }
 }
 @media (min-width: 768px) {
- .container {
+ .ch-container {
    max-width: 720px;
  }
- .hide-md{
+ .ch-hide-md{
   display: block;
  }
 }
 @media (min-width: 992px) {
- .container {
+ .ch-container {
    max-width: 960px;
  }
 }
 @media (min-width: 1200px) {
-  .container {
+  .ch-container {
     max-width: 1140px;
   }
 }
