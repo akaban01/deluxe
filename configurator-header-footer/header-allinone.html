@@ -1,0 +1,79 @@
+<!-- code inside body section is there to be pasted in raw HTML component in aem-->
+<html>
+<body>
+ <style>
+  header {
+  background-color: #e6e6e6;
+  height: 53px;
+}
+.ch-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.ch-fl-left{
+ float: left;
+}
+.ch-fl-right{
+ float:right;
+}
+
+.ch-pt-10{
+ margin-top: 10px;
+}
+
+.ch-hide-md{
+ display: none;
+}
+.ch-logo{
+ height: 30px;
+}
+
+.ch-d-lab{
+ font-size: 28px;
+ margin-top: 5px;
+ margin-left: 50px;
+ font-family: "Gotham A","Gotham B";
+}
+
+.ch-n-help{
+ color:#63666a;
+ margin-top: 15px;
+}
+
+@media (min-width: 576px) {
+ .ch-container {
+   max-width: 540px;
+ }
+}
+@media (min-width: 768px) {
+ .ch-container {
+   max-width: 720px;
+ }
+ .ch-hide-md{
+  display: block;
+ }
+}
+@media (min-width: 992px) {
+ .ch-container {
+   max-width: 960px;
+ }
+}
+@media (min-width: 1200px) {
+  .ch-container {
+    max-width: 1140px;
+  }
+}
+ </style>
+ <header>
+  <div class="ch-container">
+   <img class="ch-logo ch-fl-left ch-pt-10" src="https://akaban01.github.io/deluxe/configurator-header/logo.svg" alt="Deluxe. For the love of small business">
+   <p class="ch-fl-left ch-hide-md ch-d-lab">Design Lab</p>
+   <p class="ch-fl-right ch-n-help">Need Help? 1-XXX-XXX-XXXX</p>
+  </div>
+ </header>
+</body>
+
+</html>
