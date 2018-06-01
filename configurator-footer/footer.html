@@ -44,9 +44,35 @@
   padding-bottom: 20px;
   background: black;
 }
+.mb-10{
+  margin-bottom: 10px;
+}
 
-.social-icons{
-  text-align: center;
+.footer-hr{
+  border-color:#565552;
+}
+
+.footer-title{
+  color:white;
+  display: block;
+  font-family: "Gotham A","Gotham B";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.footer-ul{
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-ul li{
+  margin-bottom: 10px;
+  font-family: "Gotham A","Gotham B";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 </style>
 </head>
@@ -54,36 +80,110 @@
 <body>
   <p>remove refresh tag</p>
 
-  <h1>static footer</h1>
-  <div class="footer">
+  <h1>footer 1</h1>
+  <div id="f1" class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4"><p class="copyright">© 2018 Deluxe Enterprise Operations. All Rights Reserved.</p></div>
         <div class="col-sm-4">
-          <div class="social-icons">
-          <a href="https://www.facebook.com/deluxecorp" class="social-button " target="_blank" >
-            <img class="bg-white social-icon-image" src="https://1d-prod.deluxe.com/etc/clientlibs/one-deluxe/clientlib-base/images/icon_facebook.svg" alt="facebook">
-          </a>
-          <a href="https://www.facebook.com/deluxecorp" class="social-button" target="_blank">
-            <img class="twitter-icon social-icon-image" src="https://1d-prod.deluxe.com/etc/clientlibs/one-deluxe/clientlib-base/images/icon_twitter.svg" alt="twitter">
-          </a>
-          <a href="https://www.facebook.com/deluxecorp" class="social-button" target="_blank">
-            <img class="bg-white social-icon-image" src="https://1d-prod.deluxe.com/etc/clientlibs/one-deluxe/clientlib-base/images/icon_linkedIn.svg" alt="linkedIn">
-          </a>
+          <p class="copyright mb-10">© 2018 Deluxe Enterprise Operations. All Rights Reserved.</p>
         </div>
+        <div class="col-sm-5">
+          <div class="text-center mb-10">
+            <a href="https://www.facebook.com/deluxecorp" class="social-button " target="_blank" >
+              <img class="bg-white social-icon-image" src="https://1d-prod.deluxe.com/etc/clientlibs/one-deluxe/clientlib-base/images/icon_facebook.svg" alt="facebook">
+            </a>
+            <a href="https://www.facebook.com/deluxecorp" class="social-button" target="_blank">
+              <img class="twitter-icon social-icon-image" src="https://1d-prod.deluxe.com/etc/clientlibs/one-deluxe/clientlib-base/images/icon_twitter.svg" alt="twitter">
+            </a>
+            <a href="https://www.facebook.com/deluxecorp" class="social-button" target="_blank">
+              <img class="bg-white social-icon-image" src="https://1d-prod.deluxe.com/etc/clientlibs/one-deluxe/clientlib-base/images/icon_linkedIn.svg" alt="linkedIn">
+            </a>
+          </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
+          <div class="mb-10">
             <a href="https://www.bbb.org/minnesota/business-reviews/business-forms-and-systems/deluxe-corporation-in-shoreview-mn-332%20"><img src="https://1d-prod.deluxe.com/content/dam/one-deluxe/Certification%20icon1.png" rel="nofollow"></a>
             <a href="https://www.bbb.org/minnesota/business-reviews/business-forms-and-systems/deluxe-corporation-in-shoreview-mn-332%20"><img src="https://1d-prod.deluxe.com/content/dam/one-deluxe/Certification%20icon2.png" rel="nofollow"></a>
+          </div>
         </div>
-
       </div>
     </div>
+  </div>
+
+  <h1>footer 2</h1>
+  <div id="f2" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-4" style="max-width: 165px;">
+              <span class="footer-title">LEARN &amp; SUPPORT</span>
+              <ul class="footer-ul">
+                <li><a href="/products/signin/" target="_self">Your account</a></li>
+                <li><a href="/products/support/customer-care/" target="_self">Customer care</a></li>
+                <li><a href="/products/support/faq/" target="_self">FAQs</a></li>
+                <li><a href="/products/support/guarantee/" target="_self">No risk guarantee</a></li>
+                <li><a href="https://www.deluxe.com/policy/terms-of-use" target="_blank">Terms &amp; conditions</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <span class="footer-title">CUSTOM PRODUCTS</span>
+              <ul class="footer-ul">
+                <li><a href="/products/custom/promotional-products/" target="_self">Promotional products</a></li>
+                <li><a href="/products/custom/apparel/" target="_self">Apparel</a></li>
+                <li><a href="/products/custom/marketing-materials/" target="_self">Marketing materials</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <span class="footer-title">CONTACT US</span>
+          <div style="color:#c8c9c7">
+            <span class="sub_title phone">Phone:
+              <a href="tel:8558335893" role="Phone link" aria-label="Call us">8558335893</a>
+            </span>
+            <div>
+              <div class="description">
+                <p>Monday - Friday
+                  <br> Time: 9:00am - 6:00pm EST
+                  <br> Except public holidays.
+                  <br>
+                  <br>
+                </p>
+              </div>
+            </div>
+            <span class="sub_title email">Email:
+              <a href="mailto:ProductInfo@deluxe.com" role="Email link" aria-label="Email us">ProductInfo@deluxe.com</a>
+            </span>
+            <div>
+              <div class="description">
+                <p>We'll reply within 24 business hours or sooner.<br> Best for: Product inquiries and sales questions.</p>
+              </div>
+            </div>
+            <span class="sub_title email">Email:
+              <a href="mailto:CustomerHelp@deluxe.com" role="Email link" aria-label="Email us">CustomerHelp@deluxe.com</a>
+            </span>
+            <div>
+              <div class="description">
+                <p>We'll reply within 24 business hours or sooner.
+                  <br> Best For: Post order support.
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-hr">
   </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $("#f2").append($("#f1").html());
+  </script>
 </body>
 
 </html>
